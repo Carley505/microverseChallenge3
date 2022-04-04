@@ -1,0 +1,41 @@
+
+*body{
+   display: block;
+   width: 1362px; 
+}
+
+#header-img{
+    height: 40%;
+    width: 40%;
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 75px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: grey;
+}
+
+#nav-bar ul{
+    display: flex;
+    width: 35px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+@media screen and (min-width: 769px) {
+    /*--- STYLES HERE---*/
+}
+
+@media screen and (min-device-width: 481px) {
+    /*--- STYLES HERE---*/
+}
+
+@media only screen and (max-device-width: 480px) {
+    /*--- STYLES HERE---*/
+}
